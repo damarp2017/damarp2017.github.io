@@ -1,177 +1,186 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from slimhamdi.net/tunis/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Sep 2020 04:10:44 GMT -->
 <head>
-    <meta charset="utf-8">
-    <title>Home - My Resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damar.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Template Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
-
-    <!-- Template CSS Files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/preloader.min.css" rel="stylesheet">
-    <link href="css/circle.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- CSS Skin File -->
-    <link href="css/skins/green.css" rel="stylesheet">
-
-    <!-- Live Style Switcher - demo only -->
-    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css"/>
-    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css"/>
-
-    <!-- Modernizr JS File -->
-    <script src="js/modernizr.custom.js"></script>
 </head>
 
-<body class="home light">
-<!-- Live Style Switcher Starts - demo only -->
-<div id="switcher" class="">
-    <div class="content-switcher">
-        <h4>STYLE SWITCHER</h4>
-        <ul>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img
-                        src="img/styleswitcher/purple.png" alt="purple"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img
-                        src="img/styleswitcher/red.png" alt="red"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img
-                        src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img
-                        src="img/styleswitcher/blue.png" alt="blue"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img
-                        src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img
-                        src="img/styleswitcher/magenta.png" alt="magenta"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img
-                        src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img
-                        src="img/styleswitcher/orange.png" alt="orange"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img
-                        src="img/styleswitcher/green.png" alt="green"/></a>
-            </li>
-            <li>
-                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img
-                        src="img/styleswitcher/yellow.png" alt="yellow"/></a>
-            </li>
-        </ul>
-        <div id="hideSwitcher">&times;</div>
-    </div>
-</div>
-<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
-<!-- Live Style Switcher Ends - demo only -->
-<!-- Header Starts -->
-<header class="header" id="navbar-collapse-toggle">
-    <!-- Fixed Navigation Starts -->
-    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-        <li class="icon-box active">
-            <i class="fa fa-home"></i>
-            <a href="index.html">
-                <h2>Home</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-user"></i>
-            <a href="about.html">
-                <h2>About</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
-                <h2>Portfolio</h2>
-            </a>
-        </li>
-    </ul>
-    <!-- Fixed Navigation Ends -->
-    <!-- Mobile Menu Starts -->
-    <nav role="navigation" class="d-block d-lg-none">
-        <div id="menuToggle">
-            <input type="checkbox"/>
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-            </ul>
+<body class="bg-gray-100">
+    <div class="container-fluid m-5 md:m-10 lg:m-20 tracking-widest text-gray-600">
+        <div>
+            <h3 class="text-xl mb-10 underline">MyResume.</h3>
+            <div class="text-center">
+                <div class="block relative">
+                    <img alt="profil" src="/images/damar.jpg"
+                        class="mx-auto object-cover rounded-full sm:h-6 sm:w-6 md:h-32 md:w-32 lg:h-64 lg:w-64 shadow-xl" />
+                </div>
+                <h1 class="text-xl font-medium mt-4">Halo, saya Damar Permadany</h1>
+                <p>Web Developer, Laravel Developer</p>
+                <p class="my-4 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                    adipisci natus nihil
+                    quis nesciunt
+                    sint facilis, velit repellat labore laboriosam numquam hic rem a tenetur ducimus illum sunt quod
+                    quam
+                    eius modi quaerat aspernatur. Autem rerum ipsam modi voluptatem! Ratione totam impedit odio eveniet
+                    blanditiis minus saepe vero nihil ipsum!</p>
+            </div>
+            <div class="grid grid-cols-6 gap-4 mt-10">
+                <div class="col-start-2 col-span-4">
+                    <div class="flex justify-center">
+                        <a href="https://github.com/damarp2017" target="_blank" class="mx-1">
+                            <div
+                                class="rounded-full h-12 w-12 flex items-center justify-center bg-blue-400 hover:bg-blue-500 transition duration-300 hover text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" focusable="false" width="1.5em" height="1.5em"
+                                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"
+                                        fill="#fff" /></svg>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/damar-permadany-459320167/" target="_blank" class="mx-1">
+                            <div
+                                class="rounded-full h-12 w-12 flex items-center justify-center bg-blue-400 hover:bg-blue-500 transition duration-300 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" focusable="false" width="1.5em" height="1.5em"
+                                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                    <path
+                                        d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                                        fill="#fff" /></svg>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/damaar___" target="_blank" class="mx-1">
+                            <div
+                                class="rounded-full h-12 w-12 flex items-center justify-center bg-blue-400 hover:bg-blue-500 transition duration-300 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" focusable="false" width="1.5em" height="1.5em"
+                                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                    <path
+                                        d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23z"
+                                        fill="#fff" /></svg>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/damar.permadany/" target="_blank" class="mx-1">
+                            <div
+                                class="rounded-full h-12 w-12 flex items-center justify-center bg-blue-400 hover:bg-blue-500 transition duration-300 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" focusable="false" width="1.5em" height="1.5em"
+                                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                    <path
+                                        d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3z"
+                                        fill="#fff" /></svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <!-- Mobile Menu Ends -->
-</header>
-<!-- Header Ends -->
-<!-- Main Content Starts -->
-<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
-    <div class="color-block d-none d-lg-block"></div>
-    <div class="row home-details-container align-items-center">
-                <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-        <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
-            <div>
-                <img src="img/small.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
-                     alt="my picture"/>
-                <h6 class="text-uppercase open-sans-font mb-0 d-block d-sm-none d-lg-block">Halo, saya</h6>
-                <h1 class="text-uppercase poppins-font">Damar Permadany</h1>
-                <p class="open-sans-font">
-                    Selepas lulus SMK, bekerja di Perusahaan swasta di bidang otomotif sebagai operator unit produksi selama hampir 1 tahun. Kemudian melanjutkan kuliah dengan jurusan Teknik Informatika, dan bidang yang didalami saat ini adalah Web Development menggunakan Laravel. Membangun Web API untuk aplikasi Paperless sebagai tugas akhir bersama tim. 
-                    <br>Saya adalah fresh graduate.
-                </p>
-                <a href="about.html" class="btn btn-about">more about me</a>
+        <div class="mt-20">
+            <h3 class="text-xl mb-10 underline">AboutMe.</h3>
+            <div class="mb-10">
+                <p class="font-light">Nama</p>
+                <p class="lg:text-2xl font-bold">Damar Permadany</p>
+            </div>
+            <div class="mb-10">
+                <p class="font-light">Tanggal Lahir</p>
+                <p class="lg:text-2xl font-bold">Februari, 1996</p>
+            </div>
+            <div class="mb-10">
+                <p class="lg:font-light">Domisili</p>
+                <p class="text-2xl font-bold">Brebes, Jawa Tengah</p>
+            </div>
+        </div>
+        <div class="mt-20">
+            <h3 class="text-xl mb-10 underline">MyPortfolio.</h3>
+            <div class="mb-10">
+                <p class="text-2xl font-bold">TwentyPicture</p>
+                <a href="http://www.twentypicture.id"
+                    class="text-green-600 hover:text-green-700 transition duration-300">Lihat website</a>
+                <p class="font-light mb-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+                    numquam
+                    quia
+                    vitae dolore asperiores doloribus aspernatur ad delectus, molestias provident voluptates velit atque
+                    reprehenderit cupiditate sapiente sint labore eaque nobis iste saepe cumque et. Incidunt fugiat
+                    tempore at necessitatibus cumque, nulla impedit modi cupiditate atque commodi repellendus neque quos
+                    itaque!</p>
+                <div class="container">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-1/1 md:w-1/2 px-4 mb-8">
+                            <img class="rounded shadow-md" src="/images/portfolio/twentypicture/slider.PNG" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/2 px-4 mb-8">
+                            <img class="rounded shadow-md" src="/images/portfolio/twentypicture/about.PNG" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/2 px-4 mb-8">
+                            <img class="rounded shadow-md" src="/images/portfolio/twentypicture/team.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-10">
+                <p class="text-2xl font-bold">Premio</p>
+                <p class="font-light mb-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+                    numquam
+                    quia
+                    vitae dolore asperiores doloribus aspernatur ad delectus, molestias provident voluptates velit atque
+                    reprehenderit cupiditate sapiente sint labore eaque nobis iste saepe cumque et. Incidunt fugiat
+                    tempore at necessitatibus cumque, nulla impedit modi cupiditate atque commodi repellendus neque quos
+                    itaque!</p>
+                <div class="container">
+                    <div class="flex flex-wrap -mx-4">
+                        <div class="w-1/1 md:w-1/2 px-4 mb-8">
+                            <img class="rounded shadow-md" src="/images/portfolio/premio/1.png" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/2 px-4 mb-8">
+                            <img class="rounded shadow-md" src="/images/portfolio/premio/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-10">
+                <p class="text-2xl font-bold">Paperless</p>
+                <p class="font-light mb-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+                    numquam
+                    quia
+                    vitae dolore asperiores doloribus aspernatur ad delectus, molestias provident voluptates velit atque
+                    reprehenderit cupiditate sapiente sint labore eaque nobis iste saepe cumque et. Incidunt fugiat
+                    tempore at necessitatibus cumque, nulla impedit modi cupiditate atque commodi repellendus neque quos
+                    itaque!</p>
+                <div class="container">
+                    <div class="flex flex-wrap -mx-4 -mb-8">
+                        <div class="w-1/1 md:w-1/4 px-4 mb-8">
+                            <img class="rounded shadow-md" src="images/portfolio/paperless/1 (1).jpg" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/4 px-4 mb-8">
+                            <img class="rounded shadow-md" src="images/portfolio/paperless/1 (2).jpg" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/4 px-4 mb-8">
+                            <img class="rounded shadow-md" src="images/portfolio/paperless/1 (3).jpg" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/4 px-4 mb-8">
+                            <img class="rounded shadow-md" src="images/portfolio/paperless/1 (4).jpg" alt="">
+                        </div>
+                        <div class="w-1/1 md:w-1/4 px-4 mb-8">
+                            <img class="rounded shadow-md" src="images/portfolio/paperless/1 (5).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
-<!-- Main Content Ends -->
-
-<!-- Template JS Files -->
-<script src="js/jquery-3.5.0.min.js"></script>
-<script src="js/styleswitcher.js"></script>
-<script src="js/preloader.min.js"></script>
-<script src="js/fm.revealator.jquery.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpGridGallery.js"></script>
-<script src="js/jquery.hoverdir.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
 
 </body>
 
-
-<!-- Mirrored from slimhamdi.net/tunis/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Sep 2020 04:11:14 GMT -->
 </html>
