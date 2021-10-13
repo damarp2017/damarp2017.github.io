@@ -1,3 +1,23 @@
 body {
   font-family: "Source Code Pro", monospace;
 }
+
+.swiper-button-prev {
+  color: #b4b8c5;
+}
+.swiper-button-prev:hover {
+  color: wheat;
+}
+
+.swiper-button-next {
+  color: #b4b8c5;
+}
+
+.swiper-button-next:hover {
+  color: wheat;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+}
